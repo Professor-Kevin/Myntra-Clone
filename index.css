@@ -84,21 +84,6 @@ header{
     border-radius: 0 4px 4px 0;
     height: 40px;
 }
-@media screen and (min-width:100px){
-    .search_input{
-        display: none;
-}
-
-@media screen and (min-width:200px) {
-    .search_bar{
-        display: flex;
-        justify-content: center;
-        min-width: 15px;
-        width: 10%;
-    }
-    
-}
-
 /* ===================================  Action bar ======== */
 .action_bar{
     margin-right: 0px;
@@ -115,12 +100,6 @@ header{
 .action_name{
     font-size: 12px;
     font-weight: 500;
-}
-@media screen and (min-width:100px){
-    .action_name{
-        display: flex;
-        flex-direction: row;
-    }
 }
 
 
